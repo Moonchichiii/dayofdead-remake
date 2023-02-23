@@ -39,17 +39,17 @@ html body {
     box-shadow: 0 0 30% 0px;
   }
 
-// the button
 
-.drop-down-mobile {
-  background-color: #F53232;
-  border:none:
-  width:1.5rem;
-  height:2vh;
-  color:white;
+
+#drop-down-mobile{
+  background-color: #f53232;
+  color: white;
+  padding: 15px;
+  font-size: 0.7rem;
+  border: none;
+  border-radius: 80%;
   
-  
-}
+  }
 
 .drop-down-mobile-content {
   //display:none;
@@ -129,9 +129,15 @@ html body {
     }
     #mobile-menu {
       position: absolute;
-      top: 3%;
+      top: 4%;
       left:5%;
       z-index: 9999;
+      display: block;
+    }
+    #drop-down-mobile-content {
+      background-color: rgba(60, 24, 116,0.4);
+      display: block;
+      
     }
     .header {
       position: relative;
