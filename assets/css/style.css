@@ -38,6 +38,25 @@ html body {
     align-items: center;
     box-shadow: 0 0 30% 0px;
   }
+
+// the button
+
+.drop-down-mobile {
+  background-color: #F53232;
+  border:none:
+  width:1.5rem;
+  height:2vh;
+  color:white;
+  
+  
+}
+
+.drop-down-mobile-content {
+  //display:none;
+  //height: ;
+}
+
+
   
   #hero {
     background-image: url('https://images.pexels.com/photos/12041770/pexels-photo-12041770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
@@ -110,12 +129,16 @@ html body {
     }
     #mobile-menu {
       position: absolute;
-      top: 15%;
+      top: 3%;
+      left:5%;
       z-index: 9999;
     }
     .header {
       position: relative;
       z-index: 1;
+      padding-bottom: 3%;
+
+      
     }
   }
   
