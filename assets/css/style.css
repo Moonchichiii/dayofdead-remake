@@ -36,34 +36,17 @@ html body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    box-shadow: 0 0 30% 0px;
+    
   }
 
-
-
-#drop-down-mobile{
-  background-color: #f53232;
-  color: white;
-  padding: 15px;
-  font-size: 0.7rem;
-  border: none;
-  border-radius: 80%;
-  
-  }
-
-.drop-down-mobile-content {
-  //display:none;
-  //height: ;
-}
-
-
-  
   #hero {
     background-image: url('https://images.pexels.com/photos/12041770/pexels-photo-12041770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     background-size: cover;
     background-position: center center;
     height: 80vh;
     position: relative;
+    margin: 2% 2% 2% 2%;
+    box-shadow: 2px 2px 5px 5px #3a3a3a;
   }
   
   #hero::before {
@@ -80,6 +63,7 @@ html body {
   
   ion-icon {
     font-size:65px;
+    color:white;
   }
   
   
@@ -109,44 +93,81 @@ html body {
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  @media screen and (max-width: 400px) {
-    #menu {
-      display: none;
-    }
-    #mobile-menu {
-      position: absolute;
-      top: 4%;
-      left:5%;
-      z-index: 9999;
-      display: block;
-    }
-    #drop-down-mobile-content {
-      background-color: rgba(60, 24, 116,0.4);
-      display: block;
-      
-    }
-    .header {
-      position: relative;
-      z-index: 1;
-      padding-bottom: 3%;
 
-      
-    }
+#drop-down-mobile{
+  background-color: #373e98;
+  color: white;
+  padding: 15px;
+  font-size: 0.7rem;
+  border: none;
+  border-radius: 80%;
+}
+  
+  
+@media screen and (max-width: 400px) {
+  #menu {
+   display: none;
   }
+  #mob-menu {
+   position: absolute;
+   top: 5%;
+   left:3%;
+   z-index: 9999;
+   background-color: #373e98;
+   color: white;
+   width: fit-content;
+   height: 3rem;
+   padding-right: 15px;
+   font-size: 1rem;
+   border: none;
+   border-radius: 80%;
+   box-shadow: 2px 2px 2px 0 #3a3a3a;
+   perspective: 900px;
+ }
+ .drop-down-mob {
+  display: none;
+ }
+ #mob-menu:hover  + .drop-down-mob {
+  position: absolute;
+  top: 10%;
+  left: 6%;
+  width: fit-content;
+  height: 6rem;
+  display: block;
+  line-height:1;
+  background-color: #3a3a3a;
+  color: white;
+ }
+  
+.header {
+   position: relative;
+   z-index: 1;
+   padding-bottom: 3%;
+   }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   @media screen and (min-width: 401px) and (max-width: 451px) {
     #menu {
