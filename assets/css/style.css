@@ -122,19 +122,20 @@ html body {
    border: none;
    border-radius: 80%;
    box-shadow: 2px 2px 2px 0 #3a3a3a;
-   perspective: 900px;
+   perspective: 800px;
  }
  .drop-down-mob {
   display: none;
  }
- #mob-menu:hover  + .drop-down-mob {
+ #mob-menu:hover + .drop-down-mob {
   position: absolute;
-  top: 10%;
+  top: 14%;
   left: 6%;
-  width: fit-content;
+  z-index: 9999;
+  width: 25%;
   height: 6rem;
   display: block;
-  line-height:1;
+  line-height:1.8;
   background-color: #3a3a3a;
   color: white;
  }
