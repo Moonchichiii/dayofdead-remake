@@ -23,54 +23,60 @@ html body {
     color: whitesmoke;
   }
   
-  a:hover {
-    color: #fffb6e;
+a:hover {
+ color: #fffb6e;
   }
   
-  .wrapper {
-    display: flex;
-    flex-direction: column;
+.wrapper {
+  display: flex;
+  flex-direction: column;
   }
   
-  .header {
-    background-image: linear-gradient(30deg, #ffbe5a, #963c96, #3C1874, #963c96);
-    padding: 1rem;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.header {
+  background-image: linear-gradient(30deg, #ffbe5a, #963c96, #3C1874, #963c96);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
     
-  }
+}
 
-  #hero {
-    background-image: url('https://images.pexels.com/photos/12041770/pexels-photo-12041770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
-    background-size: cover;
-    background-position: center center;
-    height: 80vh;
-    position: relative;
-    margin: 2% 2% 2% 2%;
-    box-shadow: 2px 2px 5px 5px #3a3a3a;
-  }
+#hero {
+  position: relative;
+  background-image: url('https://images.pexels.com/photos/12041770/pexels-photo-12041770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+  position: relative;
+  margin: 2% 2% 2% 2%;
+  box-shadow: 0 0 10px 5px #3a3a3a;
+  z-index: 1;
+  perspective: 900px;
+}
   
-  #hero::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
-  }
-section {
-  top:0;
-  left:0;
+/*#hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2));
+}*/
+section {
+  position: absolute;
+  top:50%;
+  left:10%;
+  width: 20%;
+  height: 10%;
   z-index:9999;
   
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
   border:3px solid #fffb6e;
+  background-image: linear-gradient(55deg, #FFD23C, #FFDCAA, #E6E6E8);
+
 }  
 
 .section-inside {
@@ -78,6 +84,13 @@ section {
   flex-direction: row;
   gap: 1rem;
   border: 3px solid #fffb6e;
+}
+
+.section-below {
+  display: grid;
+  grid-template-columns: 3fr;
+  gap:1.5rem;
+  border-color: #3C1874;
 }
   
   
