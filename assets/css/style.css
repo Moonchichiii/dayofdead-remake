@@ -65,6 +65,18 @@ a:hover {
   perspective: 900px;
 }
 
+
+section {
+  box-sizing: border-box;
+  background-image: linear-gradient(55deg, #FFD23C, #FFDCAA, #E6E6E8);
+  border:3px solid whitesmoke;
+  margin-top: 3%;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 2%;  
+}
+
+
 iframe {
   display: flex;
 
@@ -73,11 +85,18 @@ iframe {
 
 
 ion-icon {
+  display: inline-block;
+  animation: rotate 2s linear infinite;
+    color: whitesmoke;
     font-size:65px;
-    color:white;
     z-index: 9999;
+    transition: ease-in(4.5s);
+    cursor: pointer;
  }
-  
+ ion-icon:hover {
+  transform: rotate3d(180deg);
+  color: #ffbe5a;
+ }  
 .hidden {
     display: none;
 }
