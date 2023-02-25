@@ -65,31 +65,17 @@ a:hover {
   perspective: 900px;
 }
 
-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
-  border:none;
-  width: 73.33%;
-  margin-top: 2%;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: linear-gradient(55deg, #FFD23C, #FFDCAA, #E6E6E8);
-  box-shadow: 0 0 10px 5px #3a3a3a;
-}
-.section-content {
-  text-align: left;
-  margin-top: 1%;
-  margin-right: 1%;
-  margin-left: 1%;
+iframe {
+  display: flex;
+
   
 }
-
 
 
 ion-icon {
     font-size:65px;
     color:white;
+    z-index: 9999;
  }
   
 .hidden {
@@ -160,7 +146,9 @@ ion-icon {
 
 @media screen and (max-width: 768px) {
   section {
-    grid-template-columns: 1fr;
+    display: block;
+    
+    
   }
 }
 
