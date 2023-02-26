@@ -4,3 +4,11 @@
 <hr>
 <p>Remake of my first project - it's so fun, and i think i've rewritten this aleast ten times soon, to get to this point so here we go!!!</p>
 <hr>
+
+
+
+
+
+Photo credits : 
+
+Photo by Genaro Servín: https://www.pexels.com/photo/photo-of-woman-wearing-traditional-dress-757828/
