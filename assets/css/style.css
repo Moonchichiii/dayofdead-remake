@@ -66,12 +66,17 @@ a:hover {
 }
 
 
+
 section {
   box-sizing: border-box;
   background-image: linear-gradient(55deg, #FFD23C, #FFDCAA, #E6E6E8);
   border:3px solid whitesmoke;
   margin-top: 3%;
+  margin-right: 2%;
+  margin-left: 2%;
   border-radius: 15px;
+  text-align: center;
+  align-items: center;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   padding: 2%;  
 }
@@ -79,10 +84,16 @@ section {
 
 iframe {
   display: flex;
-
-  
+  width: 50%;
+  height: 50vh;
+  justify-content: center;
+ 
 }
 
+.iframe-con {
+  display: flex;
+  justify-content: center;
+}
 
 ion-icon {
   display: inline-block;
