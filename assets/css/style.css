@@ -131,6 +131,19 @@ iframe {
 
 
 
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  grid-gap: 5px;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
 
 
 
@@ -152,7 +165,7 @@ iframe {
 
 
 footer {
-  display: flex;
+  
   justify-content: center;
   align-items: center;
   color:#3a3a3a;
@@ -169,6 +182,9 @@ footer {
 .bottom-link:hover {
   color:#373e98;
 }
+
+
+
 
 
 
