@@ -80,13 +80,21 @@ a:hover {
   perspective: 900px;
 }
 
-.reason-why-image {
+.reason-image {
   display: flex;
-  justify-content: center;
-  width: 50%;
+  width: 60%;
   height: auto;
   margin-right: auto;
   margin-left: auto;
+}
+
+
+.reason-why-image {
+  
+  
+  width: 100%;
+  height: auto;
+  margin: auto;
   box-shadow: 0 0 10px 5px #3a3a3a;
     
 }
@@ -164,12 +172,25 @@ input[type="submit"] {
 
 
 input[type="text"] {
+  text-align: center;
   background-color: #963c96;
 }
-input[type="placeholder"] {
+input[type="email"] {
+  text-align: center;
+  background-color: #963c96;
+}
+textarea {
+  margin-top: 2%;
+  background-color: #963c96;
+  color:white;
+  box-shadow: 1px 1px 12px 0 #3a3a3a;
+}
+input::placeholder{
   color:white;
 }
-
+textarea::placeholder{
+  color:white;
+}
 
 
 
@@ -240,19 +261,11 @@ footer {
 
 
 @media screen and (min-width: 819px) and (max-width:2700px) {
+  
   .drop-down-mob {
     display: none;
    }
-  .reason-why-image {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    height: 60vh;
-    margin-right: auto;
-    margin-left: auto;
-      
-  }
-  
+    
   #menu {
     display: block;
   }
@@ -265,23 +278,28 @@ footer {
     display: none;
    }
   .main {
-    display: flex;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
 
   }
+
   section {
     
-    flex-direction: column;
-    flex-basis: auto;
+    text-align: center;
     align-items: center;
     width: 80%;
     align-content: center;
     justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
        
   }
   
   .packing .newsletter .contact label fieldset legend textarea h3 section {
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    
     align-items: center;
     text-align: center;
     margin-right: auto;
@@ -322,14 +340,33 @@ footer {
     height: 80vh;
   }
   
-  
   .main {
     display: inline-block;
+    align-items: center;
+    text-align: center;
+
   }
   section {
-    width: 80%;
-  }
     
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    align-content: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+
+       
+  }
+  
+  .packing .newsletter .contact label fieldset legend textarea h3 section {
+    display: inline-block;
+    
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }  
   #menu {
    display: none;
   }
