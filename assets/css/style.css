@@ -202,22 +202,6 @@ textarea::placeholder{
 }
 
 
-
-
-
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-  grid-gap: 6px;
-}
-
-.gallery img {
-  width: 50%;
-  height: auto;
-  object-fit: cover;
-}
-
-
 .hidden {
     display: none;
 }
@@ -285,7 +269,7 @@ footer {
   }
 
   section {
-    text-align: left;
+    text-align: center;
     align-items: center;
     width: 80%;
     align-content: center;
