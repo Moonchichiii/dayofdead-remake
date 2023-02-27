@@ -71,13 +71,25 @@ z-index: 9999;
   background-position: center center;
   width: 73.33%;
   height: 80vh;
-  position: relative;
   margin-top: 3%;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 4%;
   box-shadow: 0 0 10px 5px #3a3a3a;
   z-index: 1;
   perspective: 900px;
+}
+
+.reason-why-image {
+  width: 90%;
+  height: 50vh;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 90%;
+  padding-right: 5%;
+  
+  mask-image:linear-gradient(30deg, #ffbe5a, #963c96, #3C1874, #963c96, transparent);
+
 }
 
 
@@ -186,6 +198,20 @@ footer {
 
 
 
+@media screen and (max-width: 768px) {
+  .main {
+    display: flex;
+
+  }
+  section {
+    flex-direction: column;
+    flex-basis: auto;
+    
+    
+  }
+}
+
+
 
 
 
@@ -247,20 +273,6 @@ footer {
   z-index: 9999;
   padding-bottom: 3%;
  }
-
-
-@media screen and (max-width: 768px) {
-  .main {
-    display: flex;
-
-  }
-  section {
-    flex-direction: column;
-    flex-basis: auto;
-    
-    
-  }
-}
 
 
 }
