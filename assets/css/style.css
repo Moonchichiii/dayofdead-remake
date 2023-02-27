@@ -80,6 +80,25 @@ a:hover {
   perspective: 900px;
 }
 
+
+
+.back {
+  position: relative;
+  z-index: 9999;
+  perspective: 1000px;
+  background-image: linear-gradient(
+    45deg,    
+    #2A5470,
+    #4C4177);
+}
+.back::after {
+  content: '';
+  position: absolute;
+  background-color: #373e98;
+
+
+}
+
 .reason-image {
   display: flex;
   width: 60%;
@@ -109,7 +128,11 @@ a:hover {
 
 section {
   flex-basis: 20%;
-  background-image: linear-gradient(55deg, #FFD23C, #FFDCAA, #E6E6E8);
+  background-image: linear-gradient(
+    55deg,
+    #ffbe5a,    
+    #9E768F,
+    #9FA4C4);
   border:3px solid whitesmoke;
   margin-top: 3%;
   margin-right: auto;
@@ -207,15 +230,6 @@ textarea::placeholder{
   height: auto;
   object-fit: cover;
 }
-
-.one:hover {
-  transform: skew(30deg, 20deg);
-  transform: scale(0.5) translate(-100%, -100%);
-}
-
-
-
-
 
 
 .hidden {
@@ -361,15 +375,16 @@ footer {
   
   .packing .newsletter .contact label fieldset legend textarea h3 section {
     display: inline-block;
-    
     align-items: center;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-  }  
+  } 
+  
   #menu {
    display: none;
   }
+  
   #mob-menu {
    position: fixed;
    top: 3rem;
@@ -500,4 +515,3 @@ footer {
   
   
   }
-  
