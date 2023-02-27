@@ -127,6 +127,16 @@ iframe {
   justify-content: center;
 }
 
+.bottom-section {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
 .bottom-headers {
   display: flex;
   justify-content: center;
@@ -134,7 +144,7 @@ iframe {
   color: #963c96;
   margin-right: auto;
   margin-left: auto;
-  
+ 
 }
 
 .bottom-headers:hover {
@@ -149,6 +159,14 @@ input[type="submit"] {
   align-items: center;
   border: none;
   background-color: #963c96;
+  color:white;
+}
+
+
+input[type="text"] {
+  background-color: #963c96;
+}
+input[type="placeholder"] {
   color:white;
 }
 
@@ -269,13 +287,6 @@ footer {
     margin-right: auto;
     margin-left: auto;
   }
-
-  input[type:"submit"] {
-
-
-  }
-
-
   
   footer {
     display: flex;
@@ -289,6 +300,12 @@ footer {
 
 
 @media screen and (min-width: 350px) and (max-width:820px){
+  .header header {
+    position: fixed;
+    top:0;
+    left:0;
+  }
+
   .reason-why-image {
     display: flex;
     justify-content: center;
@@ -298,11 +315,6 @@ footer {
     margin-left: auto;
       
   }
-  .header {
-    
-    position: fixed;
-  }
-  
   
   #hero {
     margin-top: 10%;
