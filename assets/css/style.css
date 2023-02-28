@@ -21,7 +21,7 @@ html body {
     color: #3a3a3a;
   }
 
-
+/* styles */
 
   h1,h2,h3 {
     font-family: 'Roboto', sans-serif;
@@ -34,7 +34,10 @@ html body {
     font-size: 1.2rem;
     }
   
-  
+  /* navigation */
+  .skull {
+    font-size: 5.2rem;
+  }
   
     a, li {
     font-family: 'Shantell Sans', cursive;
@@ -61,7 +64,7 @@ html body {
   align-items: center;
   width: 100%;
   border-bottom:1px solid #3a3a3a;
-
+  
 }
 
 
@@ -116,7 +119,14 @@ html body {
 }
 
 
+/* hero image */
 
+
+
+
+
+
+/* top main content */
   
 
 
@@ -127,7 +137,10 @@ html body {
 
 
 
+/* packing-email , newsletter , contact us  */
 
+
+/* footer */
 
 
 
@@ -137,7 +150,7 @@ html body {
 
 
 /* start with larger screens */
-@media screen and (min-width: 821px) and (max-width: 2500px) {
+@media screen and (min-width: 821px) and (max-width: 2800px) {
   .sticky-meny {
     display:none;
   }
@@ -153,6 +166,9 @@ html body {
   #mob-menu:hover + .drop-down-mob,
   .drop-down-mob:hover {
     display: none;
+  }
+  .skull {
+    font-size: 5.2rem;
   }    
 }
 
@@ -160,6 +176,9 @@ html body {
 @media screen and (min-width: 658px ) and (max-width: 821px) {
   #menu {
     display: none;
+  }
+  .skull {
+    font-size: 3.2rem;
   }
   
 }
@@ -169,10 +188,16 @@ html body {
   #menu {
     display: none;
   }
+  .skull {
+    font-size: 2.2rem;
+  }
 }
 
 /* mobile smaller screens */
 @media screen and (min-width: 271px) and (max-width: 451px) {
+  .skull {
+    font-size: 1.2rem;
+  }
     
  #menu {
   display: none;
