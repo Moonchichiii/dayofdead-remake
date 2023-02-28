@@ -10,11 +10,10 @@ html body {
   }
   
   body {
-    
-    font-size: 15px;
-    line-height: 1.5;
-    background-color: #3a3a3a;
-    background-image: linear-gradient(
+   font-size: 15px;
+   line-height: 1.5;
+   background-color: #3a3a3a;
+   background-image: linear-gradient(
    55deg,
    #ffbe5a,    
    #6782B4,
@@ -22,17 +21,22 @@ html body {
     color: #3a3a3a;
   }
 
-  
+
+
   h1,h2,h3 {
     font-family: 'Roboto', sans-serif;
   }
   
+
+
   p {
     font-family: 'Ubuntu', sans-serif;
     font-size: 1.2rem;
     }
   
-  a, li {
+  
+  
+    a, li {
     font-family: 'Shantell Sans', cursive;
     text-decoration: none;
     list-style: none;
@@ -40,13 +44,16 @@ html body {
     font-size: 1.5rem;
   }
   
-a:hover {
+
+  a:hover {
   color: hwb(58 15% 11%);
-  transform: skewY(30deg);
+  transform: skewX(25deg);
   }
+  
 
 
-header {
+
+  header {
   background-image: linear-gradient(30deg, #ffbe5a, #963c96, #3C1874, #963c96);
   padding: 0.2rem;
   display: flex;
@@ -56,8 +63,6 @@ header {
   border-bottom:1px solid #3a3a3a;
 
 }
-
-
 
 
 .sticky-meny {
@@ -71,14 +76,16 @@ header {
     left: 1%;
     border: none;
     font-size: 2rem;
+    text-shadow: 2px 2px 5px 0 #3a3a3a;
     background: transparent;
     margin-bottom: auto;
+    
   }
 
   .drop-down-mob {
     position: fixed;
-    top:0;
-    left:100%;
+    top:auto;
+    left:1%;
     margin: 0;
     padding: 1em;
     width: auto;
@@ -88,41 +95,29 @@ header {
     border: 1px solid #3a3a3a;
     overflow: hidden;
     transition: max-height 0.5s ease-out;
+    backdrop-filter: blur(5px);
+    display: none;
     
   }
 
-  #mob-list {
+ #mob-list {
     text-align: left;
     margin: 1em;
   }
 
 
-#mob-menu:hover + .drop-down-mob,.drop-down-mob:hover {
+ #mob-menu:hover + .drop-down-mob,.drop-down-mob:hover {
   max-height: fit-content;
   transition: max-height 0.5s ease-in-out;
   left: auto;
-  
+  bottom: auto;
+  display: block;
+ 
 }
 
+
+
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -142,43 +137,76 @@ header {
 
 
 /* start with larger screens */
-
-
-  @media screen (min-width:) (max-width:) {
-
+@media screen and (min-width: 821px) and (max-width: 2500px) {
+  .sticky-meny {
+    display:none;
   }
-
-
-
+  #mob-menu {
+    display: none;            
+  }
+  .drop-down-mob {
+    display: none;
+  }
+  #mob-list {
+    display: none;
+  }    
+  #mob-menu:hover + .drop-down-mob,
+  .drop-down-mob:hover {
+    display: none;
+  }    
+}
 
 /* laptop */
-
-
-  @media screen (min-width:) (max-width:) {
-
+@media screen and (min-width: 658px ) and (max-width: 821px) {
+  #menu {
+    display: none;
   }
-
-
+  
+}
 
 /* mobile landscape */
-
-
-
-  @media screen (min-width:) (max-width:) {
-
+@media screen and (min-width: 451px) and (max-width: 657px) {
+  #menu {
+    display: none;
   }
-
-
+}
 
 /* mobile smaller screens */
+@media screen and (min-width: 271px) and (max-width: 451px) {
+    
+ #menu {
+  display: none;
+}
 
 
+.sticky-meny {
+  position: relative;
+}
+#mob-menu {
+  position: fixed;
+  top:auto;
+  left: 1%;
+  border: none;
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px 0 #3a3a3a;
+  background: transparent;
+  margin-bottom: auto;    
+}
+.drop-down-mob {
+  position: fixed;
+  top:auto;
+  left:1%;
+  margin: 0;
+  padding: 1em;
+  width: auto;
+  height: fit-content;
+  text-align: left;
+  margin: 1em;
+  border: 1px solid #3a3a3a;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  backdrop-filter: blur(5px);
 
-  @media screen (min-width:) (max-width:) {
+}
 
   }
-
-
-
-
-
