@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Shantell+Sans:wght@300&family=Ubuntu:wght@300&display=swap');
 
 html body {
     margin: 0;
@@ -10,7 +10,7 @@ html body {
   }
   
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    
     font-size: 15px;
     line-height: 1.5;
     background-color: #3a3a3a;
@@ -21,3 +21,113 @@ html body {
    #B1BFD8);
     color: #3a3a3a;
   }
+
+  
+  h1,h2,h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    }
+  
+  a, li {
+    font-family: 'Shantell Sans', cursive;
+    text-decoration: none;
+    list-style: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+  }
+  
+a:hover {
+  color: hwb(58 15% 11%);
+  transform: skewY(30deg);
+  }
+
+
+
+  #mob-menu {
+    border: none;
+    font-size: 2rem;
+    background: transparent;
+    
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start with larger screens */
+
+
+  @media screen (min-width:) (max-width:) {
+
+  }
+
+
+
+
+/* laptop */
+
+
+  @media screen (min-width:) (max-width:) {
+
+  }
+
+
+
+/* mobile landscape */
+
+
+
+  @media screen (min-width:) (max-width:) {
+
+  }
+
+
+
+/* mobile smaller screens */
+
+
+
+  @media screen (min-width:) (max-width:) {
+
+  }
+
+
+
+
+
