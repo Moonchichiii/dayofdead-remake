@@ -10,6 +10,7 @@
 
 
 Photo credits : 
+Photo by Julia Volk: https://www.pexels.com/photo/woman-with-candy-skull-visage-for-day-of-dead-6155894/
 Photo by Roger Ce: https://www.pexels.com/photo/a-woman-with-face-paint-wearing-a-floral-dress-and-a-headdress-14070504/
 Photo by Vanessa Pozos: https://www.pexels.com/photo/woman-in-colourful-costume-and-makeup-of-dead-catrina-14159639/
 Photo by Brandao levir Coronado A: https://www.pexels.com/photo/man-in-a-dia-de-los-muertos-calavera-costume-12638517/
