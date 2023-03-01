@@ -79,6 +79,7 @@ html body {
     left: 1%;
     border: none;
     font-size: 2rem;
+    color: #ffbe5a;
     text-shadow: 2px 2px 5px 0 #3a3a3a;
     background: transparent;
     margin-bottom: auto;
@@ -121,6 +122,22 @@ html body {
 
 /* hero image */
 
+#hero {
+  background-image: url('https://images.pexels.com/photos/12041770/pexels-photo-12041770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-position: center center; 
+  background-repeat: no-repeat;
+  width: 83.33%;
+  height: 50vh;
+  margin-top: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 2%;
+  box-shadow: 0 0 10px 5px #3a3a3a;
+  z-index: 1;
+  perspective: 900px;
+
+}
 
 
 
