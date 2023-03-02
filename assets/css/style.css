@@ -122,16 +122,24 @@ html body {
 /* hero image */
 
 .hero {
-  background-image: url(assets/images/pexels-jhovani-morales-12319942.jpg);
-  background-size: cover;
+  background-image: url('https://images.pexels.com/photos/12319942/pexels-photo-12319942.jpeg?auto=compress&cs=tinysrgb&w=1000&h=850&dpr=1');
+  background-size: contain;
   background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  display: flex;
+  width:80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 20vw;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .hero text {
   text-align: center;
-  color: #3C1874;
-}
-.hero-text h1 {
+  color:#DE354C;
   font-size: 4em;
 }
 
