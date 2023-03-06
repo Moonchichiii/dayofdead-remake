@@ -182,15 +182,12 @@ iframe {
   text-align: center;
 }
 
-textarea {
-  background-color: #963c96;
-  color: white;
+.checkbox-area {
+  margin: auto;
+
+
 }
-textarea::placeholder {
-  text-align: center;
-  background-color: #963c96;
-  color: white;
-}
+
 input {
   text-align: center;
   background-color: #963c96;
@@ -207,6 +204,15 @@ input::placeholder {
   text-align: center;
   background-color: #963c96;
   color:white;
+}
+textarea {
+  background-color: #963c96;
+  color: white;
+}
+textarea::placeholder {
+  text-align: center;
+  background-color: #963c96;
+  color: white;
 }
 
 
