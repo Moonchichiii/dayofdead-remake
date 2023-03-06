@@ -163,6 +163,7 @@ iframe {
 /* packing-email , newsletter , contact us  */
 
 .bottom-section {
+  display: inline-block;
   width:30%;
   padding:20px;
   margin: auto;
@@ -258,10 +259,16 @@ section {
   text-align: center;
 }
 .bottom-section {
-  
+  display: inline-block;
+  width:auto;
+  padding:20px;
+  margin: auto;
+  background-color: rgba(255, 190, 90,0.2);
+  border-radius: 10px;
+  text-align: center;
+  overflow: auto;
 }
-.bottom-section1 .bottom-section2 .bottom-section3 {
-  }
+
 }
 
 /* mobile landscape */
@@ -285,10 +292,17 @@ section {
     margin-left: auto;
     text-align: center;
   }
+
   .bottom-section {
+    display: inline-block;
+    width:auto;
+    padding:20px;
+    margin: auto;
+    background-color: rgba(255, 190, 90,0.2);
+    border-radius: 10px;
+    text-align: center;
+    overflow: auto;
   }
-  .bottom-section1 .bottom-section2 .bottom-section3 {
-    }
 }
 
 /* mobile smaller screens */
@@ -344,18 +358,16 @@ section {
   margin-left: auto;
   text-align: center;
 }
+
 .bottom-section {
   display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
-  align-items: center;
+  width:auto;
+  padding:20px;
+  margin: auto;
+  background-color: rgba(255, 190, 90,0.2);
+  border-radius: 10px;
   text-align: center;
+  overflow: auto;
 }
-.bottom-section1 .bottom-section2 .bottom-section3 {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: center;
-  }
 
   }
