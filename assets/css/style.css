@@ -190,14 +190,16 @@ iframe {
 
 }
 
-/* packing-email , newsletter , contact us  */
+/*packing checklist , newsletter , contact us  */
 
 .bottom-section-box {
   display: flex;
+  flex-direction: row;
   margin-right: auto;
   margin-left: auto;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1%;
 }
 
 .bottom-section {
@@ -213,6 +215,7 @@ iframe {
 
 .checkbox-area {
   margin: auto;
+  float: left;
 }
 
 input {
