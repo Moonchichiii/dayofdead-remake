@@ -52,7 +52,7 @@ html body {
   
   a:hover {
   color: hwb(58 15% 11%);
-  transform: skewX(15deg) scale(1.2);
+  
   }
   
 .sticky-meny {
@@ -261,6 +261,55 @@ footer {
   background-color: transparent;
   cursor: pointer;
 }
+
+/* Image gallery */
+
+#photo-gallery {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.gallery img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.hidden-text {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  background-color: rgba(0,0,0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: opacity 0.5s ease-in-out;
+  bottom: 0;
+  display: none;
+}
+.gallery:hover .hidden-text {
+  display: flex;
+  opacity: 1;
+}
+
+
+.heading {
+  color: #963c96;
+  font-size: 1.2rem;
+}
+.link-text {
+  color: #963c96;
+  font: 0.9rem;
+}
+
 
 
 
