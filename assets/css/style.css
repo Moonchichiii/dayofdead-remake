@@ -168,6 +168,7 @@ section {
 .video-wrapper {
   display: flex;
   flex-direction: column;
+  flex-basis: 50%;
   margin-top: 2%;
   justify-content: center;
   align-items: center;
