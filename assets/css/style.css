@@ -225,7 +225,7 @@ input {
 }
 input[type="submit"] {
   margin-top: 1%;
-  border: none;
+  border: transparent;
   background-color: #ffbe5a;
   color: antiquewhite;
 }
@@ -248,8 +248,19 @@ textarea::placeholder {
 
 /* footer */
 
+footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: auto;
+}
 
-
+.bottom-link {
+  border: transparent;
+  background-color: transparent;
+  cursor: pointer;
+}
 
 
 
